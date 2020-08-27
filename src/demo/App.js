@@ -217,14 +217,14 @@ class App extends Component {
                 </td>
               </tr>
               <tr>
-                <th>Volume</th>
+                <th>Volume2</th>
                 <td>
                   <input type='range' min={0} max={1} step='any' value={volume} onChange={this.handleVolumeChange} />
                 </td>
               </tr>
               <tr>
                 <th>
-                  <label htmlFor='controls'>Controls</label>
+                  <label htmlFor='controls'>Controls2</label>
                 </th>
                 <td>
                   <input id='controls' type='checkbox' checked={controls} onChange={this.handleToggleControls} />
